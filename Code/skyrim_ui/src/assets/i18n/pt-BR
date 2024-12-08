@@ -1,0 +1,181 @@
+{
+  "COMPONENT": {
+    "CHAT": {
+      "SEND": "Enviar",
+      "MESSAGE": "Mensagem",
+      "MESSAGE_TOO_LONG": "Você não pode enviar uma mensagem com mais de {{chatMessageLengthLimit}} caracteres.",
+      "SET_TIME_ARGUMENT_COUNT": "Argumentos errados, use: /settime HH MM, exemplo: /settime 15 32.",
+      "SET_TIME_INVALID_ARGUMENTS": "As horas devem estar entre 0 e 23, e os minutos entre 0 e 59."
+    },
+    "CONNECT": {
+      "INFO": {
+        "SERVER_ADDRESS": "Conecte-se a um servidor usando seu endereço completo. Use o formato <strong>address:port</strong>. A porta padrão é <strong>10578</strong>.",
+        "HELGEN": "NÃO conecte a nenhum servidor se você ainda estiver na sequência de introdução de Helgen. Certifique-se de que você escapou primeiro."
+      },
+      "ADDRESS": "Endereço",
+      "PASSWORD": "Senha",
+      "SAVE_PASSWORD": "Salvar senha?",
+      "HIDE_PASSWORD": "Esconder senha?",
+      "CONNECT": "Conectar",
+      "CANCEL": "Cancelar",
+      "PUBLIC_SERVERS": "Servidores Publicos",
+      "ERROR": {
+        "CONNECTION": "Não foi possível conectar ao servidor especificado. Certifique-se de ter inserido o endereço correto e que você esteja conectado a internet",
+        "VERSION_MISMATCH": "Você não pode se conectar ao servidor porque ele não tem a mesma versão do Skyrim Together que você.",
+        "INVALID_ADDRESS": "O endereço está em formato inválido."
+      }
+    },
+    "DISCONNECT": {
+      "PROMPT": "Tem certeza de que deseja desconectar?",
+      "PROCEED": "Proceder",
+      "CANCEL": "Cancelar"
+    },
+    "ERROR": {
+      "OK": "Ok"
+    },
+    "NOTIFICATIONS": {
+      "MESSAGE_FROM": "Monsagem de",
+      "ACCEPT": "Aceitar",
+      "DECLINE": "Recusar"
+    },
+    "PARTY_MENU": {
+      "ACCEPT_INVITE": "Aceitar convite de {{name}}",
+      "LAUNCH_PARTY": "Iniciar party",
+      "INVITES": "Convites",
+	  "NO_INVITES": "Você não tem convites",
+      "EXPERIENCE_WARNING": "Para uma experiência de busca ideal, certifique-se de ler o guia de jogo em nosso wiki, que você pode encontrar em nosso site, <b>skyrim-together.com</b>. Aqui está um pequeno resumo das diretrizes:",
+      "GUIDELINES": {
+        "PARTY": "Para criar uma party, você precisa ser o \"host\", ou seja, você sera o lider da party.",
+        "PARTY_LEADER_TALK": "Somente o líder da party pode falar com os NPCs das missões para progredir.",
+        "PARTY_LEADER_LOOT_QUESTITEMS": "Somente o líder da party pode saquear itens de missão.",
+        "KEEP_PARTY_LEADER": "Mantenha um líder de party por sessão.",
+        "ONE_PARTY_PER_SERVER": "Limite-se a apenas uma party por servidor."
+      },
+      "NO_PLAYERS_IN_PARTY": "Não há ninguém no seu grupo. Convide-os pela lista de jogadores!",
+      "TABLE_HEADERS": {
+        "LEVEL": "Lv.",
+        "NAME": "Nome",
+        "LOCATION": "Localização"
+      },
+      "ACTIONS": {
+        "KICK": "Expulsar",
+        "TELEPORT": "Teleportar",
+        "MAKE_LEADER": "Tornar Lider"
+      },
+      "LEAVE_PARTY": "Deixar party"
+    },
+    "PARTY_LIST": {
+      "NO_OTHER_PLAYERS": "Ninguém aqui além de nós, e galinhas",
+      "TABLE_HEADERS": {
+        "LEVEL": "Lv.",
+        "NAME": "Nome",
+        "LOCATION": "Localização"
+      },
+      "INVITE": "Convidar"
+    },
+    "PLAYER_MANAGER": {
+      "PLAYER_LIST": "Lista de Players",
+      "PARTY_MENU": "Party Menu",
+      "BACK": "Voltar"
+    },
+    "ROOT": {
+      "CONNECT": "Conectar",
+      "DISCONNECT": "Desconectar",
+      "REVEAL_PLAYERS": "Revelar Players",
+      "RECONNECT": "Reconectar",
+      "PLAYER_MANAGER": "Editar Player",
+      "SETTINGS": "Configurações",
+      "CONNECTION_IN_PROGRESS": "Conecção em progresso..."
+    },
+    "SERVER_LIST": {
+      "SEARCH": "Pesquisar...",
+      "REFRESH": "Recarregar",
+      "BACK": "Voltar",
+      "LOADING": "Carregar...",
+      "NO_SERVERS": "Nenhum servidor público disponível",
+      "HIDE_MISMATCHED_SERVERS": "Ocultar servidores com versão incompatível",
+      "HIDE_FULL_SERVERS": "Ocultar servidores cheio",
+      "HIDE_PASSWORD_PROTECTED_SERVERS": "Ocultar servidor protegido por senha",
+      "SERVER_COUNT": "Mostrando {{filteredCount}} de {{count}} servidores",
+      "TABLE_HEADERS": {
+        "NAME": "Nome do Servidor",
+        "PLAYERS": "Players / Max.",
+        "COUNTRY": "Local",
+        "FAVORITE": "Favorito"
+      },
+      "JOIN": "Juntar-se"
+    },
+    "SETTINGS": {
+      "VERSION": {
+        "HEADER": "Versão",
+        "INFO": "Atualmente instalado:",
+        "OUTDATED": "A versão está desatualizada. Por favor, atualize."
+      },
+      "AUDIO": "Audio",
+      "MUTE_UI": "Mutar Interface de Usuario",
+      "UI_VOLUME": "Volume da Interface de Usuario",
+      "PARTY": "Party",
+      "SHOW_PARTY": "Mostrar Party",
+      "AUTO_HIDE_PARTY": "Ocultar Auto a Party",
+      "AUTO_HIDE_PARTY_LENGTH": "Ocultar Auto o Temporizador",
+      "PARTY_ANCHOR": "Posição",
+      "PARTY_ANCHOR_POSITION": {
+        "TOP_LEFT": "Acima Esquerda",
+        "TOP_RIGHT": "Acima Direita",
+        "BOTTOM_RIGHT": "Abaixo Direita",
+        "BOTTOM_LEFT": "Abaixo Esquerda"
+      },
+      "PARTY_ANCHOR_OFFSET_X": "Horizontal Offset",
+      "PARTY_ANCHOR_OFFSET_Y": "Vertical Offset",
+      "LENGTH": "{{length}}s",
+      "UI": "Interface de Usuario",
+      "LANGUAGE": "Linguagem",
+      "DEBUG": "Debug",
+      "SHOW_DEBUG_INFO": "Mostrar informações de Debug",
+      "FONT_SIZE": "Tamanho da Fonte",
+      "FONT_SIZES": {
+        "XS": "Muito Pequena",
+        "S": "Pequena",
+        "M": "Medio",
+        "L": "Grande",
+        "XL": "Muito Grande"
+      },
+      "BACK": "Voltar"
+    }
+  },
+  "SERVICE": {
+    "CLIENT": {
+      "CONNECTION_LOST": "Conecção perdida, tentando reconectar. {{remainingReconnectionAttempt}} tentavias.",
+      "CONNECTED": "Successo ao se conectar.",
+      "DISCONNECTED": "Desconectado do servidor."
+    },
+    "COMMANDS": {
+      "AVAILABLE_COMMANDS": "Comandos disponíveis: {{cmds}}",
+      "COMMAND_NOT_FOUND": "'{{cmd}}' não é reconhecido como um comando.",
+      "NOT_ADMIN": "Este comando só poder ser usado por um administrador."
+    },
+    "GROUP": {
+      "LEVEL_UP": "{{name}} pegou level {{level}}.",
+      "ALREADY_IN_GROUP": "Você já está em uma party. Para entrar em outro, por favor, saia da sua party atual.",
+      "KICK_NO_PARTY_LEADER": "Você não pode expulsar outros membros, você não é o líder da party.",
+      "MAKE_LEADER_NO_PARTY_LEADER": "Você não pode fazer de outro membro o líder, você não é o líder da party."
+    },
+    "ERROR": {
+      "ERRORS": {
+        "WRONG_VERSION": "Este servidor está rodando a versão {{expectedVersion}}, mas você está na versão {{version}}.",
+        "MODS_MISMATCH": "Este servidor usa o ModPolicy.{{mods}}",
+        "MODS_MISMATCH_REMOVE": "Por favor, remova os seguintes mods:\n{{mods}}",
+        "MODS_MISMATCH_INSTALL": "Por favor, instale os seguintes mods:\n{{mods}}",
+        "CLIENT_MODS_DISALLOWED": "Este servidor não permite {{mods}}. Por favor, remova-os.",
+        "WRONG_PASSWORD": "Senha incorreta.",
+        "NO_REASON": "Conecção recusada por algum motivo.",
+        "SERVER_FULL": "Este servidor está cheio.",
+        "BAD_UGRIDSTOLOAD": "Parece que seu arquivo Skyrim.ini tem um valor não padrão para 'uGridsToLoad'.ISSO É MUITO RUIM e provavelmente quebrará o mod. Por favor, defina esta configuração de volta ao padrão (5), ou remova o arquivo Skyrim.ini e inicie o Skyrim vanilla uma vez para gerar um novo arquivo. As configurações 'uExterior Cell Buffer' e 'uInterior Cell Buffer' também devem ser deixadas na configuração padrão. Se você não sabe como fazer isso, por favor, consulte nosso wiki ou peça ajuda em nosso Discord/Reddit.",
+        "NON_DEFAULT_INSTALL": "Parece que sua instalação não é puramente vanilla, ou seja, ela tem conteúdo do Creation Club (Atualização de Aniversário ou outro) ou outros mods.\nNÃO recomendamos jogar com mods.\nRecomendamos que você desinstale e desabilite esses mods (instruções podem ser encontradas no wiki).\n\nPara uma melhor experiência, você deve ter a seguinte lista de mods:<strong>\nSkyrim.esm\nUpdate.esm\nDawnguard.esm\nHearthFires.esm\nDragonborn.esm\n_ResourcePack.esl\nSkyrimTogether.esp</strong>"
+      }
+    },
+    "PLAYER_LIST": {
+      "PARTY_INVITE": "{{from}} convidou você para participar de uma party"
+    }
+  }
+}
